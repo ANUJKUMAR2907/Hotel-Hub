@@ -15,7 +15,7 @@ export default function AboutPage() {
           <h1 className="text-4xl sm:text-5xl font-serif mt-2 tracking-wide text-foreground">Our Legacy of Elegance</h1>
           <div className="h-[1px] w-20 bg-primary mx-auto mt-4" />
           <p className="text-sm sm:text-base text-muted-foreground max-w-2xl mx-auto mt-6 leading-relaxed font-light">
-            For nearly three decades, Grand Luxury Hotels has set the benchmark for luxury lodging, award-winning fine dining, and bespoke oceanfront resorts.
+            For nearly three decades, Hotel Hub has set the benchmark for luxury lodging, award-winning fine dining, and bespoke oceanfront resorts.
           </p>
         </div>
       </section>
@@ -30,7 +30,7 @@ export default function AboutPage() {
           <div className="space-y-4">
             <h2 className="text-2xl font-serif text-foreground font-semibold">Crafting Unforgettable Sanctuary</h2>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              At Grand Luxury Hotels, we believe that true hospitality is an art form. We look past the basics of accommodations to weave a tapestry of unforgettable sensory experiences. Every suite layout is bespoke, every massage therapeutic, and every butler concierge highly skilled.
+              At Hotel Hub, we believe that true hospitality is an art form. We look past the basics of accommodations to weave a tapestry of unforgettable sensory experiences. Every suite layout is bespoke, every massage therapeutic, and every butler concierge highly skilled.
             </p>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Our locations are selected for their historic elegance and scenic coastlines, ensuring that when you stay with us, you are experiencing the absolute best that a destination has to offer.

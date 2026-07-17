@@ -19,7 +19,7 @@ import { LoadingProvider } from "@/context/loading-context";
 import RouteProgressBar from "@/components/shared/route-progress-bar";
 
 export const metadata: Metadata = {
-  title: "Grand Luxury Hotel | Five-Star Reserving Experience",
+  title: "Hotel Hub | Premium Hotel Reserving Experience",
   description: "Book fine suites, penthouses, and resort rooms. Complete check-in and check-out management system for staff.",
 };
 

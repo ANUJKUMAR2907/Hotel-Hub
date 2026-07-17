@@ -750,7 +750,7 @@ export default function CustomerDashboard() {
               {/* Branding header */}
               <div className="flex justify-between items-start border-b border-border pb-6">
                 <div>
-                  <h2 className="text-2xl font-serif font-bold text-foreground leading-none">GRAND LUXURY</h2>
+                  <h2 className="text-2xl font-serif font-bold text-foreground leading-none">Hotel-Hub</h2>
                   <span className="text-[10px] text-muted-foreground uppercase tracking-widest block mt-1 font-semibold">Resort Billing Bill</span>
                 </div>
                 <div className="text-right">
@@ -853,7 +853,7 @@ export default function CustomerDashboard() {
 
               {/* Legal Note footer */}
               <div className="text-center text-[10px] text-muted-foreground/60 border-t border-border/20 pt-6">
-                Thank you for staying at Grand Luxury Hotels. This is a computer-generated transaction receipt. 
+                Thank you for staying at Hotel Hub. This is a computer-generated transaction receipt. 
                 <br />No signature required. 128-bit SSL encrypted.
               </div>
             </div>

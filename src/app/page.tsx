@@ -89,7 +89,7 @@ export default function LandingPage() {
               <span className="italic text-primary font-normal">Uncompromised Luxury</span>
             </h1>
             <p className="text-md sm:text-lg text-slate-200/80 font-light max-w-2xl mx-auto mb-10 leading-relaxed">
-              Unlock unique suites, private beach club access, and legendary spa treatment rooms. Welcome to Grand Luxury Hotels.
+              Unlock unique suites, private beach club access, and legendary spa treatment rooms. Welcome to Hotel Hub.
             </p>
           </motion.div>
 
@@ -160,7 +160,7 @@ export default function LandingPage() {
       <section className="py-20 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="text-primary font-semibold tracking-wider text-xs uppercase">Curated Offerings</span>
-          <h2 className="text-3xl font-serif text-foreground mt-2">Why Stay at Grand Luxury?</h2>
+          <h2 className="text-3xl font-serif text-foreground mt-2">Why Stay at Hotel Hub?</h2>
           <div className="h-[1px] w-20 bg-primary mx-auto mt-4" />
         </div>
 

@@ -50,10 +50,10 @@ export async function sendEmail({ to, subject, html }: EmailOptions): Promise<bo
 }
 
 export async function sendOTPEmail(email: string, otp: string, name: string): Promise<boolean> {
-  const subject = `Your One-Time Password (OTP) for Grand Luxury Hotels`;
+  const subject = `Your One-Time Password (OTP) for Hotel Hub`;
   const html = `
     <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #eee; border-radius: 8px;">
-      <h2 style="color: #b89047; text-align: center;">Grand Luxury Hotels</h2>
+      <h2 style="color: #b89047; text-align: center;">Hotel Hub</h2>
       <p>Hello ${name},</p>
       <p>We received a request to log in to your account. Use the following One-Time Password (OTP) to complete your login. This OTP is valid for 10 minutes.</p>
       <div style="background-color: #fcf8f2; border: 1px dashed #b89047; padding: 15px; text-align: center; margin: 20px 0; border-radius: 4px;">
@@ -61,7 +61,7 @@ export async function sendOTPEmail(email: string, otp: string, name: string): Pr
       </div>
       <p>If you did not initiate this request, please ignore this email.</p>
       <hr style="border: none; border-top: 1px solid #eee; margin: 20px 0;" />
-      <p style="font-size: 12px; color: #777; text-align: center;">&copy; 2026 Grand Luxury Hotels Group. All rights reserved.</p>
+      <p style="font-size: 12px; color: #777; text-align: center;">&copy; 2026 Hotel Hub. All rights reserved.</p>
     </div>
   `;
   return sendEmail({ to: email, subject, html });
@@ -85,7 +85,7 @@ export async function sendBookingConfirmationEmail(
   const html = `
     <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #eee; border-radius: 8px;">
       <div style="text-align: center; margin-bottom: 20px;">
-        <h2 style="color: #b89047; margin: 0;">Grand Luxury Hotels</h2>
+        <h2 style="color: #b89047; margin: 0;">Hotel Hub</h2>
         <p style="color: #777; font-size: 14px; margin: 5px 0 0 0;">Reservation Confirmation</p>
       </div>
       
@@ -138,7 +138,7 @@ export async function sendBookingConfirmationEmail(
       </ul>
       
       <hr style="border: none; border-top: 1px solid #eee; margin: 20px 0;" />
-      <p style="font-size: 12px; color: #777; text-align: center;">&copy; 2026 Grand Luxury Hotels Group. All rights reserved.</p>
+      <p style="font-size: 12px; color: #777; text-align: center;">&copy; 2026 Hotel Hub. All rights reserved.</p>
     </div>
   `;
   return sendEmail({ to: email, subject, html });

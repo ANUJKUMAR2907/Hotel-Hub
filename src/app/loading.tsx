@@ -29,7 +29,7 @@ export default function Loading() {
       {/* Branding and Subtext */}
       <div className="text-center select-none z-10">
         <h2 className="font-serif text-2xl tracking-[0.15em] text-foreground mb-2">
-          GRAND LUXURY
+          Hotel-Hub
         </h2>
         <div className="h-[1px] w-12 bg-primary/40 mx-auto mb-3" />
         <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground animate-pulse">

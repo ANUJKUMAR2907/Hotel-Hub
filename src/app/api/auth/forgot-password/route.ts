@@ -39,7 +39,7 @@ export async function POST(req: Request) {
       // Send Email
       const html = `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #eee; border-radius: 8px;">
-          <h2 style="color: #b89047; text-align: center;">Grand Luxury Hotels</h2>
+          <h2 style="color: #b89047; text-align: center;">Hotel Hub</h2>
           <p>Hello ${user.name},</p>
           <p>We received a request to reset your password. We have generated a temporary password for you:</p>
           <div style="background-color: #fcf8f2; border: 1px dashed #b89047; padding: 15px; text-align: center; margin: 20px 0; border-radius: 4px;">
@@ -47,13 +47,13 @@ export async function POST(req: Request) {
           </div>
           <p>Please log in using this temporary password and change your password immediately in your profile settings.</p>
           <hr style="border: none; border-top: 1px solid #eee; margin: 20px 0;" />
-          <p style="font-size: 12px; color: #777; text-align: center;">&copy; 2026 Grand Luxury Hotels Group. All rights reserved.</p>
+          <p style="font-size: 12px; color: #777; text-align: center;">&copy; 2026 Hotel Hub. All rights reserved.</p>
         </div>
       `;
 
       await sendEmail({
         to: email,
-        subject: 'Temporary Password - Grand Luxury Hotels',
+        subject: 'Temporary Password - Hotel Hub',
         html,
       });
 

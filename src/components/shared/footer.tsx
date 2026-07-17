@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-2">
               <Hotel className="h-6 w-6 text-primary" />
-              <span className="font-serif text-xl font-bold tracking-wide">GRAND LUXURY</span>
+              <span className="font-serif text-xl font-bold tracking-wide">Hotel-<span className="text-primary">Hub</span></span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-xs">
               Experience the pinnacle of fine dining, luxury hospitality, and bespoke coastal resorts. Your five-star sanctuary awaits.
@@ -80,7 +80,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2.5">
                 <Mail className="h-4 w-4 text-primary shrink-0" />
-                <span>reservations@grandluxuryhotel.com</span>
+                <span>reservations@hotelhub.com</span>
               </li>
             </ul>
           </div>
@@ -109,7 +109,7 @@ export default function Footer() {
 
         <hr className="border-border/10 my-8" />
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
-          <p>&copy; 2026 Grand Luxury Hotels Group. All rights reserved.</p>
+          <p>&copy; 2026 Hotel Hub. All rights reserved.</p>
           <p>Designed for B.Tech Final Year Project Demonstration.</p>
         </div>
       </div>

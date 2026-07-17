@@ -70,7 +70,7 @@ export default function RegisterPage() {
       <main className="flex-grow flex items-center justify-center py-20 px-4">
         <div className="w-full max-w-md bg-card border border-border p-8 rounded-xl shadow-lg">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-serif text-foreground font-semibold">Join Grand Luxury</h2>
+            <h2 className="text-3xl font-serif text-foreground font-semibold">Join Hotel Hub</h2>
             <p className="text-xs text-muted-foreground mt-1">Register today to secure exclusive member rates</p>
           </div>
 

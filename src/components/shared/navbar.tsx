@@ -26,7 +26,7 @@ export default function Navbar() {
           <div className="flex items-center gap-2">
             <Link href="/" className="flex items-center gap-2 text-xl font-bold tracking-wide text-foreground">
               <Hotel className="h-6 w-6 text-primary" />
-              <span className="font-serif">GRAND <span className="text-primary font-sans font-medium text-base">LUXURY</span></span>
+              <span className="font-serif">Hotel-<span className="text-primary font-sans font-medium text-base">Hub</span></span>
             </Link>
           </div>
 

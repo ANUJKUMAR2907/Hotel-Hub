@@ -44,7 +44,7 @@ export function LoadingProvider({ children }: { children: React.ReactNode }) {
           
           <div className="text-center px-4 max-w-sm">
             <h3 className="font-serif text-lg tracking-[0.1em] text-foreground mb-1">
-              GRAND LUXURY
+              Hotel-Hub
             </h3>
             <div className="h-[1px] w-8 bg-primary/40 mx-auto mb-3" />
             <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground animate-pulse">
