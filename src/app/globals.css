@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fbfaf5;
+  --foreground: #1c1a16;
+  --card: #ffffff;
+  --card-foreground: #1c1a16;
+  --popover: #ffffff;
+  --popover-foreground: #1c1a16;
+  --primary: #c29f5d;
+  --primary-foreground: #ffffff;
+  --secondary: #2e281e;
+  --secondary-foreground: #fbfaf5;
+  --muted: #f2efe6;
+  --muted-foreground: #666052;
+  --accent: #eae4d3;
+  --accent-foreground: #2e281e;
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+  --border: #e6e0d2;
+  --input: #e6e0d2;
+  --ring: #c29f5d;
+  --radius: 0.75rem;
+}
+
+.dark {
+  --background: #0c0b09;
+  --foreground: #fbfaf5;
+  --card: #151310;
+  --card-foreground: #fbfaf5;
+  --popover: #151310;
+  --popover-foreground: #fbfaf5;
+  --primary: #d4af37;
+  --primary-foreground: #0c0b09;
+  --secondary: #eae4d3;
+  --secondary-foreground: #151310;
+  --muted: #201e18;
+  --muted-foreground: #9a9382;
+  --accent: #2e281e;
+  --accent-foreground: #fbfaf5;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --border: #2e281e;
+  --input: #2e281e;
+  --ring: #d4af37;
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* Print Invoice styles */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-card {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
